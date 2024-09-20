@@ -34,28 +34,31 @@
 
 # Plugins
 
-## General Plugins
+## General
 
-1. cmp.lua
-2. dashboard.lua
-3. lualine.lua
-4. markview.lua
-5. mini-icons.lua
-6. nightfox.lua
-7. no-neck-pain.lua
-8. nvim-tree.lua
-9. org.lua
-10. telescope.lua
-11. tokyonight.lua
-12. treesitter.lua
-13. whichkey.lua
+1. cmp.nvim
+2. dashboard.nvim
+3. lualine.nvim
+4. markview.nvim
+5. mini-icons.nvim
+6. nightfox.nvim
+7. no-neck-pain.nvim
+8. nvim-tree.nvim
+9. org.nvim
+10. telescope.nvim
+11. tokyonight.nvim
+12. treesitter.nvim
+13. whichkey.nvim
 
-## LSP Plugins
+## LSP
 
-1. lspconfig.lua
-2. lsp_saga.lua
-3. mason.lua
+1. lspconfig.nvim
+2. lsp_saga.nvim
+3. mason.nvim
 
+## GIT
+
+1. lazygit.nvim
 
 # Missing / Broken Stuff.
 
