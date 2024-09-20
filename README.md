@@ -55,7 +55,6 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
 # Plugins
 
 + General
-
     + [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
     + [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
     + [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
@@ -64,38 +63,30 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
     + [whichkey.nvim](https://github.com/folke/which-key.nvim)
 
 + File Search
-
     + [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 + Syntax Highlight
-
     + [TreeSitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
 
 + LSP
-
     + [lspconfig.nvim](https://github.com/neovim/nvim-lspconfig)
     + [lsp_saga.nvim](https://github.com/nvimdev/lspsaga.nvim)
     + [mason.nvim](https://github.com/williamboman/mason.nvim)
 
 + Code Completion
-
     + [cmp.nvim](https://github.com/hrsh7th/nvim-cmp)
 
 + GIT
-
     + [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
 
 + Terminal
-
     + [ToggleTerm](https://github.com/akinsho/toggleterm.nvim)
 
 + Note Taking
-
     + [orgmode.nvim](https://github.com/nvim-orgmode/orgmode)
     + [markview.nvim](https://github.com/OXY2DEV/markview.nvim)
 
 + Colorschemes
-
     + [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
     + [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
