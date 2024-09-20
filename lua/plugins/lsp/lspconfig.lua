@@ -82,8 +82,8 @@ return {
         -- 	})
 
         -- Elm LS
-        -- lspconfig.elmls.setup({
-        --     capabilities = capabilities,
-        -- )}
+        lspconfig.elmls.setup({
+            capabilities = capabilities,
+        })
     end,
 }
