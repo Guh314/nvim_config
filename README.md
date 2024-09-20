@@ -54,50 +54,50 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
 
 # Plugins
 
-## General
++ General
 
-+ [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
-+ [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
-+ [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
-+ [no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim)
-+ [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
-+ [whichkey.nvim](https://github.com/folke/which-key.nvim)
+    + [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
+    + [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+    + [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
+    + [no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim)
+    + [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
+    + [whichkey.nvim](https://github.com/folke/which-key.nvim)
 
-## File Search
++ File Search
 
-+ [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+    + [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
-## Syntax Highlight
++ Syntax Highlight
 
-+ [TreeSitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
+    + [TreeSitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
 
-## LSP
++ LSP
 
-+ [lspconfig.nvim](https://github.com/neovim/nvim-lspconfig)
-+ [lsp_saga.nvim](https://github.com/nvimdev/lspsaga.nvim)
-+ [mason.nvim](https://github.com/williamboman/mason.nvim)
+    + [lspconfig.nvim](https://github.com/neovim/nvim-lspconfig)
+    + [lsp_saga.nvim](https://github.com/nvimdev/lspsaga.nvim)
+    + [mason.nvim](https://github.com/williamboman/mason.nvim)
 
-## Code Completion
++ Code Completion
 
-+ [cmp.nvim](https://github.com/hrsh7th/nvim-cmp)
+    + [cmp.nvim](https://github.com/hrsh7th/nvim-cmp)
 
-## GIT
++ GIT
 
-+ [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
+    + [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
 
-## Terminal
++ Terminal
 
-+ [ToggleTerm](https://github.com/akinsho/toggleterm.nvim)
+    + [ToggleTerm](https://github.com/akinsho/toggleterm.nvim)
 
-## Note Taking
++ Note Taking
 
-+ [orgmode.nvim](https://github.com/nvim-orgmode/orgmode)
-+ [markview.nvim](https://github.com/OXY2DEV/markview.nvim)
+    + [orgmode.nvim](https://github.com/nvim-orgmode/orgmode)
+    + [markview.nvim](https://github.com/OXY2DEV/markview.nvim)
 
-## Colorschemes
++ Colorschemes
 
-+ [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
-+ [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
+    + [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+    + [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
 
 # Missing / Broken Stuff.
