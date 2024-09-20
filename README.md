@@ -1,29 +1,49 @@
 # Introduction
-+ TODO: Add an introduction.
+
+This is a personal config, that I'm 100% sure will get big enough to weight as much as any distribution without meeting half of their functionalities.
+
+It doesn't have a installation script.
+
+And has some ordering issues.
+
 ## Images
+
 + TODO: Add images.
 
 
 # Insatall Before
 
-+ Chocolatey ( in case of Windows )
+## Windows only
+
+In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/install) or [Scoop](https://scoop.sh/), then use to install the following:
+
 + ripgrep
 + fd
+
+## General Dependencies
+
 + lua
 + node
-+ mingw
 + gcc
 + cc
++ zig
++ Lazygit
++ Lazydocker (optional)
 + Other C libraries as the error messages appear.
+
+## Optional dependencies
+
++ mingw
 
 
 # Installation Order
 
-1. Lazy.nvim
-2. mazon.nvim
-3. lspconfig.nvim
-4. TreeSitter.nvim
-5. The rest is order indepedent.
+1. [Neovim](https://neovim.io/)
+2. [Lazy.nvim](https://github.com/folke/lazy.nvim)
+3. [mason.nvim](https://github.com/williamboman/mason.nvim)
+4. [lspconfig.nvim](https://github.com/neovim/nvim-lspconfig)
+5. [TreeSitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
+6. The rest can be installed in any order.
 
 
 # References
@@ -36,29 +56,49 @@
 
 ## General
 
-1. cmp.nvim
-2. dashboard.nvim
-3. lualine.nvim
-4. markview.nvim
-5. mini-icons.nvim
-6. nightfox.nvim
-7. no-neck-pain.nvim
-8. nvim-tree.nvim
-9. org.nvim
-10. telescope.nvim
-11. tokyonight.nvim
-12. treesitter.nvim
-13. whichkey.nvim
++ [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
++ [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
++ [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
++ [no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim)
++ [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
++ [whichkey.nvim](https://github.com/folke/which-key.nvim)
+
+## File Search
+
++ [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+
+## Syntax Highlight
+
++ [TreeSitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ## LSP
 
-1. lspconfig.nvim
-2. lsp_saga.nvim
-3. mason.nvim
++ [lspconfig.nvim](https://github.com/neovim/nvim-lspconfig)
++ [lsp_saga.nvim](https://github.com/nvimdev/lspsaga.nvim)
++ [mason.nvim](https://github.com/williamboman/mason.nvim)
+
+## Code Completion
+
++ [cmp.nvim](https://github.com/hrsh7th/nvim-cmp)
 
 ## GIT
 
-1. lazygit.nvim
++ [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
+
+## Terminal
+
++ [ToggleTerm](https://github.com/akinsho/toggleterm.nvim)
+
+## Note Taking
+
++ [orgmode.nvim](https://github.com/nvim-orgmode/orgmode)
++ [markview.nvim](https://github.com/OXY2DEV/markview.nvim)
+
+## Colorschemes
+
++ [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
++ [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
+
 
 # Missing / Broken Stuff.
 
@@ -80,14 +120,14 @@
 + Tailwindcss.
 + Svelte.
 
-### Errors:
-
-+ Random clang error that appears sometimes... It's presence may be completely random.
-
 ## TreeSitter
 
 + Parsing breaks when handling a php file with html tags and php and javascript code.
 
-## Orgmode
+## Telescope
 
-+ Correct the now non-existant TreeSitter dependency.
++ clangd error when trying to install telescope-fzf-native.nvim
+
+## Markview.nvim
+
++ marview.nvim not propperly displaying colors in normal mode using tokyonight-day in first load, switching colors and back fixes it.

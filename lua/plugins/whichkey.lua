@@ -16,8 +16,11 @@ return {
             { "<leader>bn",  "<CMD>:bnext<CR>",                                                       desc = "Next Buffer" },
             { "<leader>bp",  "<CMD>:bprev<CR>",                                                       desc = "Previous Buffer" },
 
+
             -- Colorschemes
             { "<leader>c",   group = "colorscheme" },
+
+            -- Nightfox
             { "<leader>cn",  group = "Nightfox" },
             { "<leader>cnd", ":colorscheme dayfox<CR>",                                               desc = "Dayfox" },
             { "<leader>cne", ":colorscheme nordfox<CR>",                                              desc = "Nordfox" },
@@ -25,10 +28,13 @@ return {
             { "<leader>cnn", ":colorscheme nightfox<CR>",                                             desc = "Nightfox" },
             { "<leader>cnr", ":colorscheme terafox<CR>",                                              desc = "Terafox" },
             { "<leader>cnt", ":colorscheme duskfox<CR>",                                              desc = "Duskfox" },
+
+            -- Tokyonight
             { "<leader>ct",  group = "Tokyonight" },
             { "<leader>ctd", ":colorscheme tokyonight-day<CR>",                                       desc = "Tokyonight-day" },
             { "<leader>ctm", ":colorscheme tokyonight-moon<CR>",                                      desc = "Tokyonight-moon" },
             { "<leader>ctn", ":colorscheme tokyonight-night<CR>",                                     desc = "Tokyonight-night" },
+
 
             -- NvimTree
             { "<leader>e",   group = "NvimTree" },
@@ -36,14 +42,16 @@ return {
             { "<leader>ef",  ":NvimTreeFocus<cr>",                                                    desc = "NvimTreeFocus" },
             { "<leader>eh",  ":e ~/<cr>",                                                             desc = "NvimTreeHome" },
 
+
             -- File - Telescope plugin
             { "<leader>f",   group = "File" },
-            { "<leader>fb",  ":Telescope buffers theme=ivy<cr>",                                      desc = "Telescope buffers" },
-            { "<leader>ff",  ":Telescope find_files theme=ivy<cr>",                                   desc = "Telescope find_files" },
-            { "<leader>fg",  ":Telescope live_grep theme=ivy<cr>",                                    desc = "Telescope live_grep" },
-            { "<leader>fo",  ":Telescope oldfiles theme=ivy<cr>",                                     desc = "Telescope oldfiles" },
-            { "<leader>fr",  ":Telescope resume theme=ivy<cr>",                                       desc = "Telescope resume" },
-            { "<leader>fw",  ":Telescope current_buffer_fuzzy_find theme=ivy<cr>",                    desc = "Fuzzy Find in File" },
+            { "<leader>fb",  ":Telescope buffers<cr>",                                                desc = "Telescope buffers" },
+            { "<leader>ff",  ":Telescope find_files<cr>",                                             desc = "Telescope find_files" },
+            { "<leader>fg",  ":Telescope live_grep<cr>",                                              desc = "Telescope live_grep" },
+            { "<leader>fo",  ":Telescope oldfiles<cr>",                                               desc = "Telescope oldfiles" },
+            { "<leader>fr",  ":Telescope resume<cr>",                                                 desc = "Telescope resume" },
+            { "<leader>fw",  ":Telescope current_buffer_fuzzy_find<cr>",                              desc = "Fuzzy Find in File" },
+
 
             -- Git - Lazygit plugin
             { "<leader>g",   group = "Git" },
@@ -51,6 +59,7 @@ return {
             { "<leader>gc",  ":LazyGitFilter<cr>",                                                    desc = "LazyGit Filter" },
             { "<leader>gf",  ":LazyGitCurrentFile<cr>",                                               desc = "LazyGit CurrentFile" },
             { "<leader>gr",  ":LazyGitFilterCurrentFile<cr>",                                         desc = "LazyGit Filter" },
+
 
             -- LSP
             { "<leader>l",   group = "LSP" },
@@ -70,6 +79,7 @@ return {
             { "<leader>lt",  "<cmd>lua vim.lsp.buf.type_definition()<cr>",                            desc = "Type Definition" },
             { "<leader>lw",  "<cmd>lua vim.lsp.buf.add_workspace_folder()<cr>",                       desc = "Add Workspace Folder" },
 
+
             -- NoNeckPain
             { "<leader>n",   group = "NoNeckPain" },
             { "<leader>nn",  ":NoNeckPain<cr>",                                                       desc = "NoNeckPain Toggle" },
@@ -78,20 +88,23 @@ return {
             { "<leader>nl",  ":NoNeckPainToggleLeftSide<cr>",                                         desc = "NoNeckPain Left" },
             { "<leader>nr",  ":NoNeckPainToggleRightSide<cr>",                                        desc = "NoNeckPain Right" },
 
+
             -- Org Mode
             { "<leader>o",   group = "Org" },
+
 
             -- Terminal - ToggleTerm
             { "<leader>t",   group = "Toggles" },
             { "<leader>tt",  ":ToggleTerm direction=float<cr>",                                       desc = "Terminal" },
             { "<leader>tg",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
+            { "<leader>tl",  ":Lazy<cr>",                                                             desc = "Lazy" },
+
 
             -- Window
             { "<leader>w",   group = "window" },
             { "<leader>ws",  "<CMD>:sp<CR>",                                                          desc = "Split" },
             { "<leader>wv",  "<CMD>:vsp<CR>",                                                         desc = "V-Split" },
             { "<leader>ww",  "<CMD>:w<CR>",                                                           desc = "Write Window" },
-
         })
     end
 }
