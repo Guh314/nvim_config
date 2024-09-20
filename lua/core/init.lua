@@ -2,4 +2,4 @@
 require("core.lazy")
 
 -- Change default colorscheme depeding on hour.
-vim.cmd [[colorscheme tokyonight-night]]
+vim.cmd [[colorscheme tokyonight-day]]

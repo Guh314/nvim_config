@@ -36,13 +36,21 @@ return {
             { "<leader>ef",  ":NvimTreeFocus<cr>",                                                    desc = "NvimTreeFocus" },
             { "<leader>eh",  ":e ~/<cr>",                                                             desc = "NvimTreeHome" },
 
-            -- NoNeckPain
-            { "<leader>n",   group = "NoNeckPain" },
-            { "<leader>nn",  ":NoNeckPain<cr>",                                                       desc = "NoNeckPain Toggle" },
-            { "<leader>nu",  ":NoNeckPainWidthUp<cr>",                                                desc = "NoNeckPain Width Up" },
-            { "<leader>nd",  ":NoNeckPainWidthDown<cr>",                                              desc = "NoNeckPain Width Down" },
-            { "<leader>nl",  ":NoNeckPainToggleLeftSide<cr>",                                         desc = "NoNeckPain Left" },
-            { "<leader>nr",  ":NoNeckPainToggleRightSide<cr>",                                        desc = "NoNeckPain Right" },
+            -- File - Telescope plugin
+            { "<leader>f",   group = "File" },
+            { "<leader>fb",  ":Telescope buffers theme=ivy<cr>",                                      desc = "Telescope buffers" },
+            { "<leader>ff",  ":Telescope find_files theme=ivy<cr>",                                   desc = "Telescope find_files" },
+            { "<leader>fg",  ":Telescope live_grep theme=ivy<cr>",                                    desc = "Telescope live_grep" },
+            { "<leader>fo",  ":Telescope oldfiles theme=ivy<cr>",                                     desc = "Telescope oldfiles" },
+            { "<leader>fr",  ":Telescope resume theme=ivy<cr>",                                       desc = "Telescope resume" },
+            { "<leader>fw",  ":Telescope current_buffer_fuzzy_find theme=ivy<cr>",                    desc = "Fuzzy Find in File" },
+
+            -- Git - Lazygit plugin
+            { "<leader>g",   group = "Git" },
+            { "<leader>gg",  ":LazyGit<cr>",                                                          desc = "LazyGit Toggle" },
+            { "<leader>gc",  ":LazyGitFilter<cr>",                                                    desc = "LazyGit Filter" },
+            { "<leader>gf",  ":LazyGitCurrentFile<cr>",                                               desc = "LazyGit CurrentFile" },
+            { "<leader>gr",  ":LazyGitFilterCurrentFile<cr>",                                         desc = "LazyGit Filter" },
 
             -- LSP
             { "<leader>l",   group = "LSP" },
@@ -62,20 +70,21 @@ return {
             { "<leader>lt",  "<cmd>lua vim.lsp.buf.type_definition()<cr>",                            desc = "Type Definition" },
             { "<leader>lw",  "<cmd>lua vim.lsp.buf.add_workspace_folder()<cr>",                       desc = "Add Workspace Folder" },
 
-            -- Quit
-            { "<leader>q",   group = "quit" },
-            { "<leader>qa",  "<CMD>:wqa<CR>",                                                         desc = "Write Quit All" },
-            { "<leader>qc",  "<CMD>:qa!<CR>",                                                         desc = "Quit Whithout Saving" },
-            { "<leader>qq",  "<CMD>:wq<CR>",                                                          desc = "Quit Window" },
+            -- NoNeckPain
+            { "<leader>n",   group = "NoNeckPain" },
+            { "<leader>nn",  ":NoNeckPain<cr>",                                                       desc = "NoNeckPain Toggle" },
+            { "<leader>nu",  ":NoNeckPainWidthUp<cr>",                                                desc = "NoNeckPain Width Up" },
+            { "<leader>nd",  ":NoNeckPainWidthDown<cr>",                                              desc = "NoNeckPain Width Down" },
+            { "<leader>nl",  ":NoNeckPainToggleLeftSide<cr>",                                         desc = "NoNeckPain Left" },
+            { "<leader>nr",  ":NoNeckPainToggleRightSide<cr>",                                        desc = "NoNeckPain Right" },
 
-            -- Telescope
-            { "<leader>t",   group = "Telescope" },
-            { "<leader>tb",  ":Telescope buffers theme=ivy<cr>",                                      desc = "Telescope buffers" },
-            { "<leader>tf",  ":Telescope find_files theme=ivy<cr>",                                   desc = "Telescope find_files" },
-            { "<leader>tg",  ":Telescope live_grep theme=ivy<cr>",                                    desc = "Telescope live_grep" },
-            { "<leader>to",  ":Telescope oldfiles theme=ivy<cr>",                                     desc = "Telescope oldfiles" },
-            { "<leader>tr",  ":Telescope resume theme=ivy<cr>",                                       desc = "Telescope resume" },
-            { "<leader>tw",  ":Telescope current_buffer_fuzzy_find theme=ivy<cr>",                    desc = "Fuzzy Find in File" },
+            -- Org Mode
+            { "<leader>o",   group = "Org" },
+
+            -- Terminal - ToggleTerm
+            { "<leader>t",   group = "Toggles" },
+            { "<leader>tt",  ":ToggleTerm direction=float<cr>",                                       desc = "Terminal" },
+            { "<leader>tg",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
 
             -- Window
             { "<leader>w",   group = "window" },
