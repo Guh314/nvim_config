@@ -22,3 +22,6 @@
 
 # References
     + [Inspired By:](https://github.com/bibjaw99/workstation/tree/master/.config/nvim)
+
+# Plugins
+    + TODO: List them...
