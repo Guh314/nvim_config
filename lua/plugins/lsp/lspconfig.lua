@@ -28,6 +28,13 @@ return {
             capabilities = capabilities,
         })
 
+
+        lspconfig.phpactor.setup {}
+
+        lspconfig.svelte.setup {}
+
+        lspconfig.tailwindcss.setup {}
+
         -- tsserver
         lspconfig.ts_ls.setup({
             capabilities = capabilities,
