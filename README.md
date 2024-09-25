@@ -28,13 +28,8 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
 + cc
 + zig
 + Lazygit
-+ Lazydocker (optional)
-+ Other C libraries as the error messages appear.
-
-## Optional dependencies
-
 + mingw
-
++ Other C libraries as the error messages appear.
 
 # Installation Order
 
@@ -50,13 +45,14 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
 
 + bibjaw99: [Github link](https://github.com/bibjaw99/workstation/tree/master/.config/nvim)
 + lspconfig: [Github link](https://github.com/neovim/nvim-lspconfig)
-
++ LazyVim: [Github link](https://github.com/LazyVim/LazyVim/tree/main)
 
 # Plugins
 
 + General
     + [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
     + [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+    + [bufferline.nvim](https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/ui.lua
     + [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
     + [no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim)
     + [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
@@ -104,16 +100,20 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
 
 ## LSP
 
-### Missing:
+### Missing
 
 + HTML.
 + CSS.
 + Tailwindcss.
 + Svelte.
 
+### Bugs
+
++ Elm formatter creates a frame that doesn't close when a file is written with a semantically incorrect syntax.
+
 ## TreeSitter
 
-+ Parsing breaks when handling a php file with html tags and php and javascript code.
++ Parsing breaks when handling a big php file with html tags and php and javascript code.
 
 ## Telescope
 
@@ -121,4 +121,4 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
 
 ## Markview.nvim
 
-+ marview.nvim not propperly displaying colors in normal mode using tokyonight-day in first load, switching colors and back fixes it.
++ marview.nvim not propperly displaying colors in normal mode using tokyonight-day in first load, switching colors and back fixes it. It may or may not be random.

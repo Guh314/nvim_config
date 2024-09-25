@@ -28,6 +28,7 @@ return {
             { "<leader>cnn", ":colorscheme nightfox<CR>",                                             desc = "Nightfox" },
             { "<leader>cnr", ":colorscheme terafox<CR>",                                              desc = "Terafox" },
             { "<leader>cnt", ":colorscheme duskfox<CR>",                                              desc = "Duskfox" },
+            { "<leader>cnc", ":colorscheme carbonfox<CR>",                                            desc = "Carbonfox" },
 
             -- Tokyonight
             { "<leader>ct",  group = "Tokyonight" },
@@ -99,6 +100,21 @@ return {
             { "<leader>tg",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
             { "<leader>tl",  ":Lazy<cr>",                                                             desc = "Lazy" },
 
+            -- Tabs - TabMotion
+            { "<leader>T",   group = "Tabs" },
+            { "<leader>Tp",  "<Cmd>BufferLineTogglePin<CR>",                                          desc = "Toggle Pin" },
+            { "<leader>TP",  "<Cmd>BufferLineGroupClose ungrouped<CR>",                               desc = "Delete Non-Pinned Buffers" },
+            { "<leader>To",  "<Cmd>BufferLineCloseOthers<CR>",                                        desc = "Delete Other Buffers" },
+            { "<leader>Tr",  "<Cmd>BufferLineCloseRight<CR>",                                         desc = "Delete Buffers to the Right" },
+            { "<leader>Tl",  "<Cmd>BufferLineCloseLeft<CR>",                                          desc = "Delete Buffers to the Left" },
+            { "<leader>Tp",  "<cmd>BufferLineCyclePrev<cr>",                                          desc = "Prev Buffer" },
+            { "<leader>Tn",  "<cmd>BufferLineCycleNext<cr>",                                          desc = "Next Buffer" },
+            { "<S-h>",       "<cmd>BufferLineCyclePrev<cr>",                                          desc = "Prev Buffer" },
+            { "<S-l>",       "<cmd>BufferLineCycleNext<cr>",                                          desc = "Next Buffer" },
+            { "[b",          "<cmd>BufferLineCyclePrev<cr>",                                          desc = "Prev Buffer" },
+            { "]b",          "<cmd>BufferLineCycleNext<cr>",                                          desc = "Next Buffer" },
+            { "[B",          "<cmd>BufferLineMovePrev<cr>",                                           desc = "Move buffer prev" },
+            { "]B",          "<cmd>BufferLineMoveNext<cr>",                                           desc = "Move buffer next" },
 
             -- Window
             { "<leader>w",   group = "window" },
