@@ -52,7 +52,7 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
 + General
     + [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
     + [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
-    + [bufferline.nvim](https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/ui.lua
+    + [bufferline.nvim](https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/ui.lua)
     + [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
     + [no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim)
     + [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
