@@ -87,39 +87,32 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
     + [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
     + [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
++ Misc
+    + [VimBeGood](https://github.com/ThePrimeagen/vim-be-good)
+
 
 # Missing / Broken Stuff.
 
-## AutoComplete.
+## Plugins 
 
-+ Javascript.
-+ Typescript.
-+ TSX.
-+ Elm.
-+ HTML.
-+ CSS.
+### TreeSitter
+
++ Parsing breaks when handling a big php file with html tags and php and javascript code.
+
+### Telescope
+
++ clangd error when trying to install telescope-fzf-native.nvim
+
+### Markview.nvim
+
++ marview.nvim not propperly displaying colors in normal mode using tokyonight-day in first load, switching colors and back fixes it. It may or may not be random.
+
+### cmp.nvim
+
++ Not working on any language with any LSP.
 
 ## LSP
-
-### Missing
-
-+ HTML.
-+ CSS.
-+ Tailwindcss.
-+ Svelte.
 
 ### Bugs
 
 + Elm formatter creates a frame that doesn't close when a file is written with a semantically incorrect syntax.
-
-## TreeSitter
-
-+ Parsing breaks when handling a big php file with html tags and php and javascript code.
-
-## Telescope
-
-+ clangd error when trying to install telescope-fzf-native.nvim
-
-## Markview.nvim
-
-+ marview.nvim not propperly displaying colors in normal mode using tokyonight-day in first load, switching colors and back fixes it. It may or may not be random.
