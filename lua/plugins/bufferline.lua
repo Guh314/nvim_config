@@ -8,6 +8,7 @@ return {
         options = {
             diagnostics = "nvim_lsp",
             always_show_bufferline = false,
+            mode = "tabs",
             -- diagnostics_indicator = function(_, _, diag)
             --   local icons = LazyVim.config.icons.diagnostics
             --   local ret = (diag.error and icons.Error .. diag.error .. " " or "")
