@@ -57,6 +57,7 @@ In case of a windows system, first insatall [Chocolatey](https://chocolatey.org/
     + [no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim)
     + [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
     + [whichkey.nvim](https://github.com/folke/which-key.nvim)
+    + [surround.nvim](https://github.com/kylechui/nvim-surround)
 
 + File Search
     + [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
