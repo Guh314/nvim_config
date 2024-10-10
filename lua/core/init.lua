@@ -1,5 +1,7 @@
--- Don't know why declaring this here, inside a folder named core made it suddenly work, wasn't working one folder up.
--- Now I know it's just a indirection.
+-- It's a indirection that I don't remember why it's here.
 require("core.lazy")
 
-vim.cmd [[colorscheme tokyonight-day]]
+-- This is just left here.
+vim.cmd [[colorscheme nordfox]]
+
+-- TODO: Configure Opacity.
