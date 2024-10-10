@@ -106,6 +106,7 @@ return {
             { "<leader>tt",  ":ToggleTerm direction=float<cr>",                                       desc = "Terminal" },
             { "<leader>tg",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
             { "<leader>tl",  ":Lazy<cr>",                                                             desc = "Lazy" },
+            { "<leader>to",  ":Oil<cr>",                                                              desc = "Oil" },
 
             -- Tabs - TabMotion
             { "<leader>T",   group = "Tabs" },

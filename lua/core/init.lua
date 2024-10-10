@@ -3,12 +3,3 @@
 require("core.lazy")
 
 vim.cmd [[colorscheme tokyonight-day]]
-
--- Setting it here, there is a better way that I still don't know.
-require('cmp').setup({
-    sources = {
-        { name = "nvim_lsp" },
-        { name = "luasnip" }, -- For luasnip users.
-        { name = "buffer" },
-    }
-})
