@@ -48,6 +48,9 @@ return {
 			{ "<leader>cem", ":set everforest_background=\"medium\"<CR>",                             desc = "Everforest medium" },
 			{ "<leader>ceh", ":set everforest_background=\"hard\"<CR>",                               desc = "Everforest hard" },
 
+			-- Horizon
+			{ "<leader>ch",  ":colorscheme horizon<CR>",                                              desc = "Tokyodark" },
+
 
 			-- NvimTree
 			{ "<leader>e",   group = "NvimTree" },
