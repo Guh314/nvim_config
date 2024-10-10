@@ -23,10 +23,10 @@ return {
         })
 
         -- Setup Completion
-        require('cmp').setup({
-            sources = {
-                { name = "orgmode" }
-            }
-        })
+        -- require('cmp').setup({
+        --     sources = {
+        --         { name = "orgmode" }
+        --     }
+        -- })
     end,
 }

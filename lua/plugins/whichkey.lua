@@ -36,6 +36,13 @@ return {
             { "<leader>ctm", ":colorscheme tokyonight-moon<CR>",                                      desc = "Tokyonight-moon" },
             { "<leader>ctn", ":colorscheme tokyonight-night<CR>",                                     desc = "Tokyonight-night" },
 
+            -- Tokyodark
+            { "<leader>cT",  ":colorscheme tokyodark<CR>",                                            desc = "Tokyodark" },
+
+            -- Everforest
+            { "<leader>ce",  group = "Everforest" },
+            { "<leader>cea", ":colorscheme everforest<CR>",                                           desc = "Everforest ANY" },
+
 
             -- NvimTree
             { "<leader>e",   group = "NvimTree" },
@@ -94,7 +101,7 @@ return {
             { "<leader>o",   group = "Org" },
 
 
-            -- Terminal - ToggleTerm
+            -- Toggles - Terminal - ToggleTerm - Lazygit
             { "<leader>t",   group = "Toggles" },
             { "<leader>tt",  ":ToggleTerm direction=float<cr>",                                       desc = "Terminal" },
             { "<leader>tg",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
@@ -109,6 +116,7 @@ return {
             { "<leader>Tl",  "<Cmd>BufferLineCloseLeft<CR>",                                          desc = "Delete Buffers to the Left" },
             { "<leader>Tp",  "<cmd>BufferLineCyclePrev<cr>",                                          desc = "Prev Buffer" },
             { "<leader>Tn",  "<cmd>BufferLineCycleNext<cr>",                                          desc = "Next Buffer" },
+            { "<leader>Tc",  "<cmd>tabnew<CR>",                                                       desc = "Create Tab" },
             { "<S-h>",       "<cmd>BufferLineCyclePrev<cr>",                                          desc = "Prev Buffer" },
             { "<S-l>",       "<cmd>BufferLineCycleNext<cr>",                                          desc = "Next Buffer" },
             { "[b",          "<cmd>BufferLineCyclePrev<cr>",                                          desc = "Prev Buffer" },
