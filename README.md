@@ -1,6 +1,6 @@
 # Introduction
 
-This j a personal config, that I'm 100% sure will get big enough to weight as much as any distribution without meeting half of their functionalities.
+This a personal config, that I'm 100% sure will get big enough to weight as much as any distribution without meeting half of their functionalities.
 
 It doesn't have a installation script.
 
