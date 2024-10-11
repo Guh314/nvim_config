@@ -25,7 +25,9 @@ Fast regex search utility that will be used by Telescope to search file names an
 
 It can be installed on Windows in Powershell using Chocolatey by entering the following:
 
-`choco install ripgrep`
+```Powershell
+choco install ripgrep
+```
 
 ### Mingw
 
@@ -33,7 +35,9 @@ Way to get gcc and other gnu c utilities on windows.
 
 It can be installed on Windows in Powershell using Chocolatey by entering the following:
 
-`choco install mingw`
+```Powershell
+choco install mingw
+```
 
 ## Optional
 
@@ -45,7 +49,9 @@ Fast file search utility, speed file name search if propperly configured and use
 
 It can be installed on Windows in Powershell using Chocolatey by entering the following:
 
-`choco install fd`
+```Powershell
+choco install fd
+```
 
 ### Linux Installation
 
@@ -63,7 +69,7 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 + [Lazygit](https://github.com/jesseduffield/lazygit).
 + Other C libraries as the error messages appear.
 
-+ TODO: Reduce the ammount of C compiler dependencies.
++ TODO: Reduce the ammount of C compiler's dependencies.
 
 # References
 
@@ -87,9 +93,10 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 
 + [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
-## File Search
+## File Search and Organization
 
 + [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
++ [oil.nvim](https://github.com/stevearc/oil.nvim)
 
 ##  Syntax Highlight
 
@@ -122,6 +129,7 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 
 + [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 + [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
++ [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 
 ## Misc
 

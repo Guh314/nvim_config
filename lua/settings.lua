@@ -16,7 +16,7 @@ o.signcolumn = 'yes'
 o.numberwidth = 5
 
 -- Tabs and Spaces
-o.expandtab = true
+o.expandtab = false
 o.tabstop = 4
 o.softtabstop = -1
 o.wrap = true
