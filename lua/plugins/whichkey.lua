@@ -32,9 +32,10 @@ return {
 
 			-- Tokyonight
 			{ "<leader>ct",  group = "Tokyonight" },
-			{ "<leader>ctd", ":colorscheme tokyonight-day<CR>",                                       desc = "Tokyonight-day" },
-			{ "<leader>ctm", ":colorscheme tokyonight-moon<CR>",                                      desc = "Tokyonight-moon" },
-			{ "<leader>ctn", ":colorscheme tokyonight-night<CR>",                                     desc = "Tokyonight-night" },
+			{ "<leader>ctd", ":colorscheme tokyonight-day<CR>",                                       desc = "Tokyonight Day" },
+			{ "<leader>ctm", ":colorscheme tokyonight-moon<CR>",                                      desc = "Tokyonight Moon" },
+			{ "<leader>ctn", ":colorscheme tokyonight-night<CR>",                                     desc = "Tokyonight Night" },
+			{ "<leader>cts", ":colorscheme tokyonight-storm<CR>",                                     desc = "Tokyonight Storm" },
 
 			-- Tokyodark
 			{ "<leader>cT",  ":colorscheme tokyodark<CR>",                                            desc = "Tokyodark" },
@@ -49,7 +50,7 @@ return {
 			{ "<leader>ceh", ":set everforest_background=\"hard\"<CR>",                               desc = "Everforest hard" },
 
 			-- Horizon
-			{ "<leader>ch",  ":colorscheme horizon<CR>",                                              desc = "Tokyodark" },
+			{ "<leader>ch",  ":colorscheme horizon<CR>",                                              desc = "Horizon" },
 
 
 			-- NvimTree
@@ -139,6 +140,10 @@ return {
 			{ "<leader>ws",  "<CMD>:sp<CR>",                                                          desc = "Split" },
 			{ "<leader>wv",  "<CMD>:vsp<CR>",                                                         desc = "V-Split" },
 			{ "<leader>ww",  "<CMD>:w<CR>",                                                           desc = "Write Window" },
+			{ "<leader>wh",  "<C-w>h",                                                                desc = "Left Window" },
+			{ "<leader>wl",  "<C-w>l",                                                                desc = "Right Window" },
+			{ "<leader>wj",  "<C-w>j",                                                                desc = "Down Window" },
+			{ "<leader>wk",  "<C-w>k",                                                                desc = "Up Window" },
 		})
 	end
 }
