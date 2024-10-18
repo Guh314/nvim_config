@@ -124,6 +124,7 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 
 + [orgmode.nvim](https://github.com/nvim-orgmode/orgmode)
 + [markview.nvim](https://github.com/OXY2DEV/markview.nvim)
++ [neorg.nvim]
 
 ## Colorschemes/Themes
 
@@ -155,3 +156,8 @@ Marview.nvim not propperly displaying colors in normal mode using tokyonight-day
 ## LSP
 
 Elm formatter creates a frame that doesn't close when a file is written with a semantically incorrect syntax.
+
+# TODO
+- Propperly config neorg.
+- Move no-neck-pain to toggles
+- Config neorg under n for +notes.
