@@ -161,3 +161,4 @@ Elm formatter creates a frame that doesn't close when a file is written with a s
 - Propperly config neorg.
 - Move no-neck-pain to toggles
 - Config neorg under n for +notes.
+- Lazy Load as much of the LSPs as possible to not slowdown neovim.

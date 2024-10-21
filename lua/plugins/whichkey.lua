@@ -53,13 +53,6 @@ return {
 			{ "<leader>ch",  ":colorscheme horizon<CR>",                                              desc = "Horizon" },
 
 
-			-- NvimTree
-			{ "<leader>e",   group = "NvimTree" },
-			{ "<leader>ee",  ":NvimTreeToggle<cr>",                                                   desc = "NvimTreeToggle" },
-			{ "<leader>ef",  ":NvimTreeFocus<cr>",                                                    desc = "NvimTreeFocus" },
-			{ "<leader>eh",  ":e ~/<cr>",                                                             desc = "NvimTreeHome" },
-
-
 			-- File - Telescope plugin
 			{ "<leader>f",   group = "File" },
 			{ "<leader>fb",  ":Telescope buffers<cr>",                                                desc = "Telescope buffers" },
@@ -97,14 +90,8 @@ return {
 			{ "<leader>lw",  "<cmd>lua vim.lsp.buf.add_workspace_folder()<cr>",                       desc = "Add Workspace Folder" },
 
 
-			-- NoNeckPain
-			{ "<leader>n",   group = "NoNeckPain" },
-			{ "<leader>nn",  ":NoNeckPain<cr>",                                                       desc = "NoNeckPain Toggle" },
-			{ "<leader>nu",  ":NoNeckPainWidthUp<cr>",                                                desc = "NoNeckPain Width Up" },
-			{ "<leader>nd",  ":NoNeckPainWidthDown<cr>",                                              desc = "NoNeckPain Width Down" },
-			{ "<leader>nl",  ":NoNeckPainToggleLeftSide<cr>",                                         desc = "NoNeckPain Left" },
-			{ "<leader>nr",  ":NoNeckPainToggleRightSide<cr>",                                        desc = "NoNeckPain Right" },
-			{ "<leader>no",  ":NoNeckPainResize ",                                                    desc = "NoNeckPainResize INT" },
+			-- Notes
+			{ "<leader>n",   group = "Notes" },
 
 
 			-- Org Mode
@@ -117,6 +104,9 @@ return {
 			{ "<leader>tg",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
 			{ "<leader>tl",  ":Lazy<cr>",                                                             desc = "Lazy" },
 			{ "<leader>to",  ":Oil<cr>",                                                              desc = "Oil" },
+			{ "<leader>tn",  ":NoNeckPain<cr>",                                                       desc = "NoNeckPain" },
+			{ "<leader>te",  ":NvimTreeToggle<cr>",                                                   desc = "NvimTree" },
+
 
 			-- Tabs - TabMotion
 			{ "<leader>T",   group = "Tabs" },
