@@ -1,6 +1,24 @@
 return {
 	"nvim-neorg/neorg",
+	dependencies = { 'nvim-lua/plenary.nvim' },
 	lazy = false,
 	version = "*",
-	config = true
+	config = function()
+		local neorg = require("neorg")
+		neorg.setup({
+			load = {
+				["core.defaults"] = {},
+				["core.concealer"] = {},
+				["core.dirman"] = {
+					config = {
+						workspaces = {
+							notes = "~/notes",
+							other = "~/others",
+						},
+						default_workspace = "other",
+					}
+				},
+			}
+		})
+	end,
 }
