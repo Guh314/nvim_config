@@ -14,6 +14,7 @@ return {
 						workspaces = {
 							notes = "~/notes",
 							other = "~/others",
+							bio = "~/biography_info",
 						},
 						default_workspace = "other",
 					}

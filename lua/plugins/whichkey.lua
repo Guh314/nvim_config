@@ -93,6 +93,50 @@ return {
 			-- Notes
 			{ "<leader>n",   group = "Notes" },
 
+			-- TODO sort this thing.
+			--Neorg Keybinds ~
+			--- Neorg is configured to use keybind preset `neorg`
+			--- WARNING Key `<` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.promo.demote.range)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>cm` conflicts with a key bound by the user. Neorg will not bind this key.
+			--    - consider mapping `<Plug>(neorg.looking-glass.magnify-code-block)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>id` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.tempus.insert-date)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>li` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.pivot.list.invert)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>lt` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.pivot.list.toggle)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>ta` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.qol.todo-items.todo.task-ambiguous)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>tc` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.qol.todo-items.todo.task-cancelled)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>td` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.qol.todo-items.todo.task-done)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>th` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.qol.todo-items.todo.task-on-hold)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>ti` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.qol.todo-items.todo.task-important)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>tp` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.qol.todo-items.todo.task-pending)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>tr` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.qol.todo-items.todo.task-recurring)` to a different key than the one bound by Neorg.
+			--- WARNING Key `<LocalLeader>tu` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.qol.todo-items.todo.task-undone)` to a different key than the one bound by Neorg.
+			--- WARNING Key `>` conflicts with a key bound by the user. Neorg will not bind this key.
+			--  - ADVICE:
+			--    - consider mapping `<Plug>(neorg.promo.promote.range)` to a different key than the one bound by Neorg.
 
 			-- Org Mode
 			{ "<leader>o",   group = "Org" },
