@@ -138,18 +138,16 @@ return {
 			--  - ADVICE:
 			--    - consider mapping `<Plug>(neorg.promo.promote.range)` to a different key than the one bound by Neorg.
 
-			-- Org Mode
-			{ "<leader>o",   group = "Org" },
-
+			{ "<leader>o", group = "Open" },
+			{ "<leader>ot",  ":ToggleTerm direction=float<cr>",                                       desc = "Terminal" },
+			{ "<leader>og",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
+			{ "<leader>ol",  ":Lazy<cr>",                                                             desc = "Lazy" },
+			{ "<leader>oo",  ":Oil<cr>",                                                              desc = "Oil" },
+			{ "<leader>oe",  ":NvimTreeToggle<cr>",                                                   desc = "NvimTree" },
+			{ "<leader>oz",  ":ZenMode<cr>",													      desc = "Zen Mode" },
 
 			-- Toggles - Terminal - ToggleTerm - Lazygit
-			{ "<leader>t",   group = "Toggles" },
-			{ "<leader>tt",  ":ToggleTerm direction=float<cr>",                                       desc = "Terminal" },
-			{ "<leader>tg",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
-			{ "<leader>tl",  ":Lazy<cr>",                                                             desc = "Lazy" },
-			{ "<leader>to",  ":Oil<cr>",                                                              desc = "Oil" },
-			{ "<leader>te",  ":NvimTreeToggle<cr>",                                                   desc = "NvimTree" },
-			{ "<leader>tz",  ":ZenMode<cr>",													      desc = "Zen Mode" },
+			{ "<leader>t",   group = "TODO" },
 
 
 			-- Tabs - TabMotion
