@@ -84,7 +84,7 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 + [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
 + [bufferline.nvim](https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/ui.lua)
 + [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
-+ [no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim)
++ [zen-mode.nvim](https://github.com/folke/zen-mode.nvim)
 + [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
 + [whichkey.nvim](https://github.com/folke/which-key.nvim)
 + [surround.nvim](https://github.com/kylechui/nvim-surround)
@@ -124,7 +124,7 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 
 + [orgmode.nvim](https://github.com/nvim-orgmode/orgmode)
 + [markview.nvim](https://github.com/OXY2DEV/markview.nvim)
-+ [neorg.nvim]
++ [neorg.nvim](https://github.com/nvim-neorg/neorg)
 
 ## Colorschemes/Themes
 
@@ -159,6 +159,6 @@ Elm formatter creates a frame that doesn't close when a file is written with a s
 
 # TODO
 - Propperly config neorg.
-- Move no-neck-pain to toggles
 - Config neorg under n for +notes.
 - Lazy Load as much of the LSPs as possible to not slowdown neovim.
+- Lua LSP broke on Windows.

@@ -12,11 +12,12 @@ return {
 				["core.dirman"] = {
 					config = {
 						workspaces = {
-							notes = "~/notes",
-							other = "~/others",
-							bio = "~/biography_info",
+							generalNotes = "~/Norg/generalNotes",
+							specificNotes = "~/Norg/specificNotes",
+							bio = "~/Norg/biography_info",
+							novels = "~/Norg/novels"
 						},
-						default_workspace = "other",
+						default_workspace = "generalNotes",
 					}
 				},
 			}

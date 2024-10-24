@@ -148,8 +148,8 @@ return {
 			{ "<leader>tg",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
 			{ "<leader>tl",  ":Lazy<cr>",                                                             desc = "Lazy" },
 			{ "<leader>to",  ":Oil<cr>",                                                              desc = "Oil" },
-			{ "<leader>tn",  ":NoNeckPain<cr>",                                                       desc = "NoNeckPain" },
 			{ "<leader>te",  ":NvimTreeToggle<cr>",                                                   desc = "NvimTree" },
+			{ "<leader>tz",  ":ZenMode<cr>",													      desc = "Zen Mode" },
 
 
 			-- Tabs - TabMotion
