@@ -75,6 +75,7 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 
 + [bibjaw99](https://github.com/bibjaw99/workstation/tree/master/.config/nvim)
 + [LazyVim](https://github.com/LazyVim/LazyVim/tree/main)
++ All plugins configurations in the section bellow.
 
 
 # Plugins
@@ -131,6 +132,7 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 + [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 + [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 + [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
++ [everforest.nvim](https://github.com/neanias/everforest-nvim)
 
 ## Misc
 
@@ -158,7 +160,11 @@ Marview.nvim not propperly displaying colors in normal mode using tokyonight-day
 Elm formatter creates a frame that doesn't close when a file is written with a semantically incorrect syntax.
 
 # TODO
-- Propperly config neorg.
-- Config neorg under n for +notes.
-- Lazy Load as much of the LSPs as possible to not slowdown neovim.
-- Lua LSP broke on Windows.
++ Propperly config neorg.
++ Config neorg under n for +notes.
++ Lazy Load as much of the LSPs as possible to not slowdown neovim.
++ Lua LSP broke on Windows.
++ Propperly config Everforest Theme.
++ Consider making a theme.
++ Name this.
++ Sort the things that are only used by Windows from what is used also on Linux but it may or may not be optional.
