@@ -2,6 +2,6 @@
 require("core.lazy")
 
 -- This is just left here.
-vim.cmd [[colorscheme tokyonight]]
+vim.cmd [[colorscheme tokyonight-storm]]
 
 -- TODO: Configure Opacity.

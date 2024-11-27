@@ -3,7 +3,7 @@ return {
 	lazy = false,
 	priority = 1000,
 	opts = {
-		    tranparent = true,
+		tranparent = false,
 		--    styles = {
 		--        sidebars = "transparent",
 		--        floats = "transparent"

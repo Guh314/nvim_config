@@ -29,16 +29,16 @@ return {
 		-- })
 
 
-		-- lspconfig.phpactor.setup {}
+		lspconfig.phpactor.setup {}
 
-		-- lspconfig.svelte.setup {}
+		lspconfig.svelte.setup {}
 
-		-- lspconfig.tailwindcss.setup {}
+		lspconfig.tailwindcss.setup {}
 
-		-- -- tsserver
-		-- lspconfig.ts_ls.setup({
-		--     capabilities = capabilities,
-		-- })
+		-- tsserver
+		lspconfig.ts_ls.setup({
+			capabilities = capabilities,
+		})
 
 		-- -- zig zls
 		-- lspconfig.zls.setup {
@@ -60,10 +60,10 @@ return {
 		--     }
 		-- }
 
-		-- -- 	-- html
-		-- -- 	lspconfig.html.setup({
-		-- -- 		capabilities = capabilities,
-		-- -- 	})
+		-- html
+		lspconfig.html.setup({
+			capabilities = capabilities,
+		})
 
 		-- -- configure emmet language server
 		-- lspconfig.emmet_ls.setup({
@@ -71,26 +71,26 @@ return {
 		--     filetypes = { "astro", "css", "eruby", "html", "htmldjango", "javascriptreact", "less", "pug", "sass", "scss", "svelte", "typescriptreact", "vue", "htmlangular" },
 		-- })
 
-		-- -- Lua LS
-		-- lspconfig.lua_ls.setup({
-		--     capabilities = capabilities,
-		--     settings = {
-		--         Lua = {
-		--             diagnostics = {
-		--                 globals = { "vim" },
-		--             },
-		--         },
-		--     },
-		-- })
+		-- Lua LS
+		lspconfig.lua_ls.setup({
+			capabilities = capabilities,
+			settings = {
+				Lua = {
+					diagnostics = {
+						globals = { "vim" },
+					},
+				},
+			},
+		})
 
-		-- -- 	-- CSS LS
-		-- -- 	lspconfig.cssls.setup({
-		-- -- 		capabilities = capabilities,
-		-- -- 	})
+		-- CSS LS
+		lspconfig.cssls.setup({
+			capabilities = capabilities,
+		})
 
-		-- -- Elm LS
-		-- lspconfig.elmls.setup({
-		--     capabilities = capabilities,
-		-- })
+		-- Elm LS
+		lspconfig.elmls.setup({
+			capabilities = capabilities,
+		})
 	end,
 }

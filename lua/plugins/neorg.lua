@@ -13,11 +13,9 @@ return {
 					config = {
 						workspaces = {
 							generalNotes = "~/Norg/generalNotes",
-							specificNotes = "~/Norg/specificNotes",
-							bio = "~/Norg/biography_info",
-							novels = "~/Norg/novels"
+							inbox = "~/Norg/inbox"
 						},
-						default_workspace = "generalNotes",
+						default_workspace = "inbox",
 					}
 				},
 			}
