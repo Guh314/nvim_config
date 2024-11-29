@@ -45,13 +45,19 @@ return {
 			{ "<leader>cee", ":colorscheme everforest<CR>",                                           desc = "Everforest ANY" },
 			{ "<leader>cel", ":set background=light<CR>",                                             desc = "Everforest light" },
 			{ "<leader>ced", ":set background=dark<CR>",                                              desc = "Everforest dark" },
-			{ "<leader>ces", ":set everforest_background=\"soft\"<CR>",                               desc = "Everforest soft" },
-			{ "<leader>cem", ":set everforest_background=\"medium\"<CR>",                             desc = "Everforest medium" },
-			{ "<leader>ceh", ":set everforest_background=\"hard\"<CR>",                               desc = "Everforest hard" },
+			{ "<leader>ces", ":setglobal everforest_background=\"soft\"<CR>",                         desc = "Everforest soft" },
+			{ "<leader>cem", ":setglobal everforest_background=\"medium\"<CR>",                       desc = "Everforest medium" },
+			{ "<leader>ceh", ":setglobal everforest_background=\"hard\"<CR>",                         desc = "Everforest hard" },
 
 			-- Horizon
 			{ "<leader>ch",  ":colorscheme horizon<CR>",                                              desc = "Horizon" },
 
+			-- Rose Pine
+			{ "<leader>cr",  group = "Rose Pine" },
+			{ "<leader>crr", ":colorscheme rose-pine<CR>",                                            desc = "Rose Pine" },
+			{ "<leader>crd", ":colorscheme rose-pine-dawn<CR>",                                       desc = "Rose Pine Dawn" },
+			{ "<leader>crn", ":colorscheme rose-pine-main<CR>",                                       desc = "Rose Pine Main" },
+			{ "<leader>crm", ":colorscheme rose-pine-moon<CR>",                                       desc = "Rose Pine Moon" },
 
 			-- File - Telescope plugin
 			{ "<leader>f",   group = "File" },
@@ -138,13 +144,13 @@ return {
 			--  - ADVICE:
 			--    - consider mapping `<Plug>(neorg.promo.promote.range)` to a different key than the one bound by Neorg.
 
-			{ "<leader>o", group = "Open" },
+			{ "<leader>o",   group = "Open" },
 			{ "<leader>ot",  ":ToggleTerm direction=float<cr>",                                       desc = "Terminal" },
 			{ "<leader>og",  ":LazyGit<cr>",                                                          desc = "LazyGit" },
 			{ "<leader>ol",  ":Lazy<cr>",                                                             desc = "Lazy" },
 			{ "<leader>oo",  ":Oil<cr>",                                                              desc = "Oil" },
 			{ "<leader>oe",  ":NvimTreeToggle<cr>",                                                   desc = "NvimTree" },
-			{ "<leader>oz",  ":ZenMode<cr>",													      desc = "Zen Mode" },
+			{ "<leader>oz",  ":ZenMode<cr>",                                                          desc = "Zen Mode" },
 
 			-- Toggles - Terminal - ToggleTerm - Lazygit
 			{ "<leader>t",   group = "TODO" },

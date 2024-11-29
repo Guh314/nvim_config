@@ -8,5 +8,7 @@ return {
 		vim.g.everforest_enable_italic = true
 		-- vim.cmd.colorscheme('everforest')
 		vim.g.everforest_better_performance = 1
+
+		vim.g.everforest_background = "medium"
 	end
 }
