@@ -17,7 +17,7 @@ return {
 							bio = "~/Norg/biography_info",
 							novels = "~/Norg/novels"
 						},
-						default_workspace = "generalNotes",
+						default_workspace = "generalNotes"
 					}
 				},
 			}

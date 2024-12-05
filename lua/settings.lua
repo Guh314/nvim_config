@@ -54,6 +54,6 @@ g.maplocalleader = ' '
 -- Neovide stuff
 if g.neovide then
 	o.guifont = "Mononoki Nerd Font:h14"
-	g.neovide_transparency = 0.8
-	g.transparency = 0.8
+	g.neovide_transparency = 0.9
+	g.transparency = 0.9
 end
