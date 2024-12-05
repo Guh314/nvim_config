@@ -101,7 +101,8 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 
 ##  Syntax Highlight
 
-+ [TreeSitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
++ [treesitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
++ [treesitter-textobjects.nvim](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
 
 ## LSP
 
@@ -133,6 +134,7 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 + [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 + [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 + [everforest.nvim](https://github.com/neanias/everforest-nvim)
++ [rose-pine](https://github.com/rose-pine/neovim)
 
 ## Misc
 
@@ -145,26 +147,32 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 
 ### TreeSitter
 
-Parsing breaks when handling a big php file with html tags and php and javascript code.
++ Parsing breaks when handling a big php file with html tags and php and javascript code.
 
 ### Telescope
 
-clangd error when trying to install telescope-fzf-native.nvim
++ clangd error when trying to install telescope-fzf-native.nvim
 
 ### Markview.nvim
 
-Marview.nvim not propperly displaying colors in normal mode using tokyonight-day in first load, switching colors and back fixes it. It may or may not be random.
++ Marview.nvim not propperly displaying colors in normal mode using tokyonight-day in first load, switching colors and back fixes it. It may or may not be random.
 
 ## LSP
 
-Elm formatter creates a frame that doesn't close when a file is written with a semantically incorrect syntax.
++ Elm formatter creates a frame that doesn't close when a file is written with a semantically incorrect syntax.
+
++ Taking too much memory upwards of 3.5GBs. Urgently find how to lazyload the LSPs.
+
++ PHPActor will freeze a computer in a file longer than 5k lines.
+
++ Check for memory leaks in PHPActor from Mason Package into LSPConfig in files bigger than 5k lines.
 
 # TODO
 + Propperly config neorg.
 + Config neorg under n for +notes.
 + Lazy Load as much of the LSPs as possible to not slowdown neovim.
 + Lua LSP broke on Windows.
-+ Propperly config Everforest Theme.
++ Stop Adding themes.
 + Consider making a theme.
 + Name this.
 + Sort the things that are only used by Windows from what is used also on Linux but it may or may not be optional.

@@ -6,10 +6,12 @@ return {
 		"windwp/nvim-ts-autotag",
 		"hiphish/rainbow-delimiters.nvim",
 		"windwp/nvim-autopairs",
+		"nvim-treesitter/nvim-treesitter-textobjects",
 	},
 
 	build = ":TSUpdate",
 	event = "bufWinEnter",
+	-- event = { "bufReadPre", "bufNewFile" },
 
 	config = function()
 		local treesitter = require("nvim-treesitter.configs")
@@ -44,6 +46,15 @@ return {
 			},
 			rainbow = {
 				enable = true,
+			},
+			incremental_selection = {
+				enable = true,
+				keymaps = {
+					init_selection = "gnn",
+					node_incremental = "grn",
+					scope_incremental = "grc",
+					node_decremental = "grm",
+				},
 			},
 		})
 	end,
