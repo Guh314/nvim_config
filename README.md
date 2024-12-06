@@ -84,20 +84,24 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 
 + [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)
 + [bufferline.nvim](https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/plugins/ui.lua)
-+ [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
 + [zen-mode.nvim](https://github.com/folke/zen-mode.nvim)
-+ [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
 + [whichkey.nvim](https://github.com/folke/which-key.nvim)
 + [surround.nvim](https://github.com/kylechui/nvim-surround)
+
+## Icons
+
++ [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
++ [mini-icons.nvim](https://github.com/echasnovski/mini.icons)
 
 ## Status Line
 
 + [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
-## File Search and Organization
+## File 
 
 + [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 + [oil.nvim](https://github.com/stevearc/oil.nvim)
++ [nvim-tree.nvim](https://github.com/nvim-tree/nvim-tree.lua)
 
 ##  Syntax Highlight
 
@@ -176,3 +180,8 @@ If not available consult the creator's [github](https://github.com/sharkdp/fd).
 + Consider making a theme.
 + Name this.
 + Sort the things that are only used by Windows from what is used also on Linux but it may or may not be optional.
++ Check [snacks.nvim](https://github.com/folke/snacks.nvim)
+  + How to handle big files.
+  + [noice.nvim](https://github.com/folke/noice.nvim)
++ Start removing things.
++ Check if moving all to mini-icons since it has more icons, 'Neorg icon'
